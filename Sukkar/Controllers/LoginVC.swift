@@ -38,7 +38,13 @@ class LoginVC: UIViewController {
 
     }
 
-
+    @IBAction func registerPressed(_ sender: Any) {
+        
+        guard let vc = storyboard?.instantiateViewController(withIdentifier: "RegisterVC") else {return}
+        vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true)
+    }
+    
 }
 
 

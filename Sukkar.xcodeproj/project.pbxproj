@@ -15,6 +15,7 @@
 		0F9252772AE9E53000851FA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F9252752AE9E53000851FA4 /* LaunchScreen.storyboard */; };
 		0F9252C52AEDD09700851FA4 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9252C42AEDD09700851FA4 /* UIView+Extensions.swift */; };
 		0F9252C72AEF1FBA00851FA4 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9252C62AEF1FBA00851FA4 /* Colors.swift */; };
+		0F9252F92AF0936800851FA4 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9252F82AF0936800851FA4 /* RegisterVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		0F9252782AE9E53000851FA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F9252C42AEDD09700851FA4 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		0F9252C62AEF1FBA00851FA4 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		0F9252F82AF0936800851FA4 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				0F92526E2AE9E52F00851FA4 /* LoginVC.swift */,
+				0F9252F82AF0936800851FA4 /* RegisterVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				0F92526F2AE9E52F00851FA4 /* LoginVC.swift in Sources */,
 				0F9252C72AEF1FBA00851FA4 /* Colors.swift in Sources */,
 				0F92526B2AE9E52F00851FA4 /* AppDelegate.swift in Sources */,
+				0F9252F92AF0936800851FA4 /* RegisterVC.swift in Sources */,
 				0F9252C52AEDD09700851FA4 /* UIView+Extensions.swift in Sources */,
 				0F92526D2AE9E52F00851FA4 /* SceneDelegate.swift in Sources */,
 			);
