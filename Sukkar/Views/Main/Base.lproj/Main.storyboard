@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NBq-gY-ecS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rMq-UZ-b9d">
     <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
@@ -512,10 +512,16 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Orders" id="Zcy-B3-494">
-                        <barButtonItem key="leftBarButtonItem" image="icons _Close" id="uqu-vh-ADb"/>
+                        <barButtonItem key="leftBarButtonItem" image="icons _Close" id="uqu-vh-ADb">
+                            <color key="tintColor" red="0.090196078430000007" green="0.1058823529" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </barButtonItem>
                         <rightBarButtonItems>
-                            <barButtonItem image="Group 8891" id="pb1-3r-wDw"/>
-                            <barButtonItem image="commerce-and-shopping" id="JXt-Xe-icf"/>
+                            <barButtonItem image="Group 8891" id="pb1-3r-wDw">
+                                <color key="tintColor" red="0.090196078430000007" green="0.1058823529" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </barButtonItem>
+                            <barButtonItem image="commerce-and-shopping" id="JXt-Xe-icf">
+                                <color key="tintColor" red="0.090196078430000007" green="0.1058823529" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
                     <connections>
@@ -525,6 +531,41 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CGn-wA-oQy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2637.2093023255816" y="705.57939914163092"/>
+        </scene>
+        <!--Addresses-->
+        <scene sceneID="pmf-Gd-FIR">
+            <objects>
+                <viewController id="rEZ-Ff-Wju" customClass="AddressesVC" customModule="Sukkar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vlu-Qu-ACQ">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="lo4-Dd-ruG">
+                                <rect key="frame" x="0.0" y="103" width="430" height="795"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="yfV-oe-BQ6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lo4-Dd-ruG" firstAttribute="top" secondItem="yfV-oe-BQ6" secondAttribute="top" id="74v-dy-Dmv"/>
+                            <constraint firstItem="yfV-oe-BQ6" firstAttribute="trailing" secondItem="lo4-Dd-ruG" secondAttribute="trailing" id="JVF-dW-onR"/>
+                            <constraint firstItem="yfV-oe-BQ6" firstAttribute="bottom" secondItem="lo4-Dd-ruG" secondAttribute="bottom" id="TVn-P0-bT6"/>
+                            <constraint firstItem="lo4-Dd-ruG" firstAttribute="leading" secondItem="yfV-oe-BQ6" secondAttribute="leading" id="aky-Cl-c2w"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Addresses" id="WU5-9h-wFr">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="icons _Close" id="Zdd-mY-MSJ"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="add" id="mBz-P6-Wem"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="addressTableView" destination="lo4-Dd-ruG" id="kCV-FE-CH6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8f9-B8-vHd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4363.2558139534885" y="705.57939914163092"/>
         </scene>
         <!--Account-->
         <scene sceneID="GlP-Sc-ahJ">
@@ -553,6 +594,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="NBq-gY-ecS" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="eku-7O-2Vt">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" red="0.61960784310000006" green="0.61960784310000006" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -566,9 +608,28 @@
             </objects>
             <point key="canvasLocation" x="840" y="705.57939914163092"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="uwk-v9-lZa">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rMq-UZ-b9d" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="nAn-fm-Zld">
+                        <rect key="frame" x="0.0" y="59" width="430" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="rEZ-Ff-Wju" kind="relationship" relationship="rootViewController" id="EHJ-fA-jIG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ftT-AM-jMs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3464.6511627906975" y="705.57939914163092"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Group 8891" width="20" height="16"/>
+        <image name="add" width="18" height="18"/>
         <image name="check_unsel_sel" width="21.333333969116211" height="21.333333969116211"/>
         <image name="commerce-and-shopping" width="19.666666030883789" height="17"/>
         <image name="emailormobile" width="11.333333015441895" height="12"/>

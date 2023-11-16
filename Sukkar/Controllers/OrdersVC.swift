@@ -28,8 +28,6 @@ class OrdersVC: UIViewController  {
     // MARK: - View Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
         setUp()
         
     }
@@ -46,6 +44,7 @@ extension OrdersVC {
         orderTableView.delegate = self
         orderTableView.dataSource = self
         orderTableView.register(UINib(nibName: OrdersCell.cellID , bundle: nil), forCellReuseIdentifier: OrdersCell.cellID)
+        orderTableView.separatorStyle = .none
     }
 }
 

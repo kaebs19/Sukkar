@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F4780902B03FF4F006B2FDF /* AddressesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F47808E2B03FF4F006B2FDF /* AddressesVC.swift */; };
+		0F4780942B03FFC8006B2FDF /* AddressesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4780922B03FFC8006B2FDF /* AddressesCell.swift */; };
+		0F4780952B03FFC8006B2FDF /* AddressesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F4780932B03FFC8006B2FDF /* AddressesCell.xib */; };
+		0F4780982B0402A0006B2FDF /* Enum+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4780972B0402A0006B2FDF /* Enum+String.swift */; };
+		0F47809A2B043129006B2FDF /* AddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4780992B043129006B2FDF /* AddressModel.swift */; };
 		0F7CE00E2AF7156800595E48 /* OrdersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7CE00D2AF7156800595E48 /* OrdersVC.swift */; };
 		0F7CE0142AF7191B00595E48 /* OrdersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7CE0122AF7191B00595E48 /* OrdersCell.swift */; };
 		0F7CE0152AF7191B00595E48 /* OrdersCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F7CE0132AF7191B00595E48 /* OrdersCell.xib */; };
@@ -23,6 +28,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F47808E2B03FF4F006B2FDF /* AddressesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressesVC.swift; sourceTree = "<group>"; };
+		0F4780922B03FFC8006B2FDF /* AddressesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressesCell.swift; sourceTree = "<group>"; };
+		0F4780932B03FFC8006B2FDF /* AddressesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddressesCell.xib; sourceTree = "<group>"; };
+		0F4780972B0402A0006B2FDF /* Enum+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Enum+String.swift"; sourceTree = "<group>"; };
+		0F4780992B043129006B2FDF /* AddressModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressModel.swift; sourceTree = "<group>"; };
 		0F7CE00D2AF7156800595E48 /* OrdersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersVC.swift; sourceTree = "<group>"; };
 		0F7CE0122AF7191B00595E48 /* OrdersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersCell.swift; sourceTree = "<group>"; };
 		0F7CE0132AF7191B00595E48 /* OrdersCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrdersCell.xib; sourceTree = "<group>"; };
@@ -51,6 +61,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F4780962B040286006B2FDF /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				0F4780972B0402A0006B2FDF /* Enum+String.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
 		0F7CE00F2AF718D700595E48 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +92,8 @@
 			children = (
 				0F7CE0122AF7191B00595E48 /* OrdersCell.swift */,
 				0F7CE0132AF7191B00595E48 /* OrdersCell.xib */,
+				0F4780922B03FFC8006B2FDF /* AddressesCell.swift */,
+				0F4780932B03FFC8006B2FDF /* AddressesCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -82,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				0F7CE0172AF71B1200595E48 /* OrdersModels.swift */,
+				0F4780992B043129006B2FDF /* AddressModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -120,6 +141,7 @@
 		0F9252BE2AEDC39800851FA4 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				0F4780962B040286006B2FDF /* Enum */,
 				0F9252C32AEDD05900851FA4 /* Extensions */,
 				0F9252BF2AEDC3D600851FA4 /* Colors */,
 			);
@@ -148,6 +170,7 @@
 				0F92526E2AE9E52F00851FA4 /* LoginVC.swift */,
 				0F9252F82AF0936800851FA4 /* RegisterVC.swift */,
 				0F7CE00D2AF7156800595E48 /* OrdersVC.swift */,
+				0F47808E2B03FF4F006B2FDF /* AddressesVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -214,6 +237,7 @@
 				0F9252742AE9E53000851FA4 /* Assets.xcassets in Resources */,
 				0F7CE0152AF7191B00595E48 /* OrdersCell.xib in Resources */,
 				0F9252722AE9E52F00851FA4 /* Main.storyboard in Resources */,
+				0F4780952B03FFC8006B2FDF /* AddressesCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,10 +253,14 @@
 				0F7CE0142AF7191B00595E48 /* OrdersCell.swift in Sources */,
 				0F92526B2AE9E52F00851FA4 /* AppDelegate.swift in Sources */,
 				0F7CE0182AF71B1200595E48 /* OrdersModels.swift in Sources */,
+				0F47809A2B043129006B2FDF /* AddressModel.swift in Sources */,
+				0F4780942B03FFC8006B2FDF /* AddressesCell.swift in Sources */,
 				0F9252F92AF0936800851FA4 /* RegisterVC.swift in Sources */,
 				0F7CE00E2AF7156800595E48 /* OrdersVC.swift in Sources */,
 				0F9252C52AEDD09700851FA4 /* UIView+Extensions.swift in Sources */,
 				0F92526D2AE9E52F00851FA4 /* SceneDelegate.swift in Sources */,
+				0F4780902B03FF4F006B2FDF /* AddressesVC.swift in Sources */,
+				0F4780982B0402A0006B2FDF /* Enum+String.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

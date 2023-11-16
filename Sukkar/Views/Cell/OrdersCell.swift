@@ -32,6 +32,8 @@ class OrdersCell: UITableViewCell {
         
         mainView.addRadius(radius: 7)
         mainView.addBorder(borderColor: .C707070, whithSize: 0.5)
+        
+        self.selectionStyle = .none
     }
 
     func getup(cellDate: OrdersModels) {
