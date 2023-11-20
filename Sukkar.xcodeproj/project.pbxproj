@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F33035C2B098E3B00487F6D /* CartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F33035A2B098E3B00487F6D /* CartCell.swift */; };
+		0F33035D2B098E3B00487F6D /* CartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F33035B2B098E3B00487F6D /* CartCell.xib */; };
+		0F33035F2B0ACBAE00487F6D /* CartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F33035E2B0ACBAE00487F6D /* CartModel.swift */; };
+		0F3303612B0AE77B00487F6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F3303602B0AE77B00487F6D /* Assets.xcassets */; };
 		0F4780902B03FF4F006B2FDF /* AddressesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F47808E2B03FF4F006B2FDF /* AddressesVC.swift */; };
 		0F4780942B03FFC8006B2FDF /* AddressesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4780922B03FFC8006B2FDF /* AddressesCell.swift */; };
 		0F4780952B03FFC8006B2FDF /* AddressesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F4780932B03FFC8006B2FDF /* AddressesCell.xib */; };
 		0F4780982B0402A0006B2FDF /* Enum+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4780972B0402A0006B2FDF /* Enum+String.swift */; };
 		0F47809A2B043129006B2FDF /* AddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4780992B043129006B2FDF /* AddressModel.swift */; };
+		0F4780EC2B06F810006B2FDF /* NewAddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4780EB2B06F80F006B2FDF /* NewAddressVC.swift */; };
 		0F7CE00E2AF7156800595E48 /* OrdersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7CE00D2AF7156800595E48 /* OrdersVC.swift */; };
 		0F7CE0142AF7191B00595E48 /* OrdersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7CE0122AF7191B00595E48 /* OrdersCell.swift */; };
 		0F7CE0152AF7191B00595E48 /* OrdersCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F7CE0132AF7191B00595E48 /* OrdersCell.xib */; };
@@ -20,19 +25,24 @@
 		0F92526D2AE9E52F00851FA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F92526C2AE9E52F00851FA4 /* SceneDelegate.swift */; };
 		0F92526F2AE9E52F00851FA4 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F92526E2AE9E52F00851FA4 /* LoginVC.swift */; };
 		0F9252722AE9E52F00851FA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F9252702AE9E52F00851FA4 /* Main.storyboard */; };
-		0F9252742AE9E53000851FA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F9252732AE9E53000851FA4 /* Assets.xcassets */; };
 		0F9252772AE9E53000851FA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F9252752AE9E53000851FA4 /* LaunchScreen.storyboard */; };
 		0F9252C52AEDD09700851FA4 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9252C42AEDD09700851FA4 /* UIView+Extensions.swift */; };
 		0F9252C72AEF1FBA00851FA4 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9252C62AEF1FBA00851FA4 /* Colors.swift */; };
 		0F9252F92AF0936800851FA4 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9252F82AF0936800851FA4 /* RegisterVC.swift */; };
+		0FAED3CE2B09848A002109F2 /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAED3CD2B09848A002109F2 /* CartVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F33035A2B098E3B00487F6D /* CartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCell.swift; sourceTree = "<group>"; };
+		0F33035B2B098E3B00487F6D /* CartCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartCell.xib; sourceTree = "<group>"; };
+		0F33035E2B0ACBAE00487F6D /* CartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartModel.swift; sourceTree = "<group>"; };
+		0F3303602B0AE77B00487F6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F47808E2B03FF4F006B2FDF /* AddressesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressesVC.swift; sourceTree = "<group>"; };
 		0F4780922B03FFC8006B2FDF /* AddressesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressesCell.swift; sourceTree = "<group>"; };
 		0F4780932B03FFC8006B2FDF /* AddressesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddressesCell.xib; sourceTree = "<group>"; };
 		0F4780972B0402A0006B2FDF /* Enum+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Enum+String.swift"; sourceTree = "<group>"; };
 		0F4780992B043129006B2FDF /* AddressModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressModel.swift; sourceTree = "<group>"; };
+		0F4780EB2B06F80F006B2FDF /* NewAddressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAddressVC.swift; sourceTree = "<group>"; };
 		0F7CE00D2AF7156800595E48 /* OrdersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersVC.swift; sourceTree = "<group>"; };
 		0F7CE0122AF7191B00595E48 /* OrdersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersCell.swift; sourceTree = "<group>"; };
 		0F7CE0132AF7191B00595E48 /* OrdersCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrdersCell.xib; sourceTree = "<group>"; };
@@ -42,12 +52,12 @@
 		0F92526C2AE9E52F00851FA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0F92526E2AE9E52F00851FA4 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		0F9252712AE9E52F00851FA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0F9252732AE9E53000851FA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F9252762AE9E53000851FA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F9252782AE9E53000851FA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F9252C42AEDD09700851FA4 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		0F9252C62AEF1FBA00851FA4 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		0F9252F82AF0936800851FA4 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		0FAED3CD2B09848A002109F2 /* CartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +82,7 @@
 		0F7CE00F2AF718D700595E48 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0FAED3CC2B09847B002109F2 /* Categories */,
 				0F7CE0112AF718EF00595E48 /* Cell */,
 				0F7CE0102AF718E100595E48 /* Main */,
 			);
@@ -94,6 +105,8 @@
 				0F7CE0132AF7191B00595E48 /* OrdersCell.xib */,
 				0F4780922B03FFC8006B2FDF /* AddressesCell.swift */,
 				0F4780932B03FFC8006B2FDF /* AddressesCell.xib */,
+				0F33035A2B098E3B00487F6D /* CartCell.swift */,
+				0F33035B2B098E3B00487F6D /* CartCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -103,6 +116,7 @@
 			children = (
 				0F7CE0172AF71B1200595E48 /* OrdersModels.swift */,
 				0F4780992B043129006B2FDF /* AddressModel.swift */,
+				0F33035E2B0ACBAE00487F6D /* CartModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -132,8 +146,8 @@
 				0F9252BE2AEDC39800851FA4 /* Utilities */,
 				0F92526A2AE9E52F00851FA4 /* AppDelegate.swift */,
 				0F92526C2AE9E52F00851FA4 /* SceneDelegate.swift */,
-				0F9252732AE9E53000851FA4 /* Assets.xcassets */,
 				0F9252782AE9E53000851FA4 /* Info.plist */,
+				0F3303602B0AE77B00487F6D /* Assets.xcassets */,
 			);
 			path = Sukkar;
 			sourceTree = "<group>";
@@ -171,8 +185,17 @@
 				0F9252F82AF0936800851FA4 /* RegisterVC.swift */,
 				0F7CE00D2AF7156800595E48 /* OrdersVC.swift */,
 				0F47808E2B03FF4F006B2FDF /* AddressesVC.swift */,
+				0F4780EB2B06F80F006B2FDF /* NewAddressVC.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0FAED3CC2B09847B002109F2 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				0FAED3CD2B09848A002109F2 /* CartVC.swift */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +257,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F9252772AE9E53000851FA4 /* LaunchScreen.storyboard in Resources */,
-				0F9252742AE9E53000851FA4 /* Assets.xcassets in Resources */,
 				0F7CE0152AF7191B00595E48 /* OrdersCell.xib in Resources */,
+				0F33035D2B098E3B00487F6D /* CartCell.xib in Resources */,
 				0F9252722AE9E52F00851FA4 /* Main.storyboard in Resources */,
+				0F3303612B0AE77B00487F6D /* Assets.xcassets in Resources */,
 				0F4780952B03FFC8006B2FDF /* AddressesCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,11 +275,15 @@
 				0F92526F2AE9E52F00851FA4 /* LoginVC.swift in Sources */,
 				0F9252C72AEF1FBA00851FA4 /* Colors.swift in Sources */,
 				0F7CE0142AF7191B00595E48 /* OrdersCell.swift in Sources */,
+				0F33035C2B098E3B00487F6D /* CartCell.swift in Sources */,
 				0F92526B2AE9E52F00851FA4 /* AppDelegate.swift in Sources */,
 				0F7CE0182AF71B1200595E48 /* OrdersModels.swift in Sources */,
 				0F47809A2B043129006B2FDF /* AddressModel.swift in Sources */,
 				0F4780942B03FFC8006B2FDF /* AddressesCell.swift in Sources */,
 				0F9252F92AF0936800851FA4 /* RegisterVC.swift in Sources */,
+				0F4780EC2B06F810006B2FDF /* NewAddressVC.swift in Sources */,
+				0F33035F2B0ACBAE00487F6D /* CartModel.swift in Sources */,
+				0FAED3CE2B09848A002109F2 /* CartVC.swift in Sources */,
 				0F7CE00E2AF7156800595E48 /* OrdersVC.swift in Sources */,
 				0F9252C52AEDD09700851FA4 /* UIView+Extensions.swift in Sources */,
 				0F92526D2AE9E52F00851FA4 /* SceneDelegate.swift in Sources */,

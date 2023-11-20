@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="145" id="KGk-i7-Jjw" customClass="CartCell" customModule="Sukkar" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="450" height="145"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="450" height="145"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cart_list_noimg" translatesAutoresizingMaskIntoConstraints="NO" id="wtg-NP-zO5">
+                        <rect key="frame" x="23" y="22.666666666666671" width="100" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="wtg-NP-zO5" secondAttribute="height" multiplier="1:1" id="Jsg-k3-aQO"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qi3-HF-egZ">
+                        <rect key="frame" x="407.66666666666669" y="18" width="17.333333333333314" height="17.666666666666671"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Qi3-HF-egZ" secondAttribute="height" multiplier="1:1" id="ccJ-Ju-fEq"/>
+                        </constraints>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" image="close"/>
+                        <connections>
+                            <action selector="cartDeleteClickedButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="y4G-B5-ayG"/>
+                        </connections>
+                    </button>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="wd1-nw-s5l">
+                        <rect key="frame" x="344" y="97" width="83" height="30"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jkM-Mx-sYn">
+                                <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="jkM-Mx-sYn" secondAttribute="height" multiplier="1:1" id="DRm-kk-ORu"/>
+                                </constraints>
+                                <color key="tintColor" name="#0079FB"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="minus"/>
+                                <connections>
+                                    <action selector="minusClickedButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ox9-IS-YQ1"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gmc-zG-ieK">
+                                <rect key="frame" x="38" y="0.0" width="7" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HbP-Pa-Spf">
+                                <rect key="frame" x="53" y="0.0" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="HbP-Pa-Spf" secondAttribute="height" multiplier="1:1" id="Snc-mZ-Ley"/>
+                                </constraints>
+                                <color key="tintColor" name="#0079FB"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="plus"/>
+                                <connections>
+                                    <action selector="plusClickedButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="sSk-Se-dkl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="CcM-xN-5Pn">
+                        <rect key="frame" x="136" y="49.666666666666657" width="198" height="46"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kLz-dD-DEJ">
+                                <rect key="frame" x="0.0" y="0.0" width="198" height="21.666666666666668"/>
+                                <string key="text">Egyption Medical 
+Headsets</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6.34 RS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WCG-aw-mYW">
+                                <rect key="frame" x="0.0" y="26.666666666666664" width="198" height="19.333333333333336"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="wtg-NP-zO5" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="1nW-tY-jUf"/>
+                    <constraint firstItem="wd1-nw-s5l" firstAttribute="leading" secondItem="CcM-xN-5Pn" secondAttribute="trailing" constant="10" id="2SU-Pw-Vdq"/>
+                    <constraint firstAttribute="trailing" secondItem="Qi3-HF-egZ" secondAttribute="trailing" constant="25" id="CYj-Do-fWO"/>
+                    <constraint firstAttribute="trailing" secondItem="wd1-nw-s5l" secondAttribute="trailing" constant="23" id="DYK-ek-CdJ"/>
+                    <constraint firstItem="CcM-xN-5Pn" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="ECR-X5-DTA"/>
+                    <constraint firstItem="wtg-NP-zO5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="23" id="SGd-oY-liW"/>
+                    <constraint firstItem="CcM-xN-5Pn" firstAttribute="leading" secondItem="wtg-NP-zO5" secondAttribute="trailing" constant="13" id="a5E-HA-BrN"/>
+                    <constraint firstAttribute="bottom" secondItem="wd1-nw-s5l" secondAttribute="bottom" constant="18" id="iU4-r4-st7"/>
+                    <constraint firstItem="Qi3-HF-egZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="18" id="oGU-ME-RO1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <constraints>
+                <constraint firstItem="wtg-NP-zO5" firstAttribute="width" secondItem="njF-e1-oar" secondAttribute="width" multiplier="0.222222" id="MH9-o3-cvJ"/>
+                <constraint firstItem="jkM-Mx-sYn" firstAttribute="width" secondItem="njF-e1-oar" secondAttribute="width" multiplier="0.0666667" id="Tfc-wy-LvF"/>
+                <constraint firstItem="HbP-Pa-Spf" firstAttribute="width" secondItem="njF-e1-oar" secondAttribute="width" multiplier="0.0666667" id="cg4-CL-EJ6"/>
+                <constraint firstItem="Qi3-HF-egZ" firstAttribute="width" secondItem="njF-e1-oar" secondAttribute="width" multiplier="0.0388889" id="fmF-J9-ajc"/>
+            </constraints>
+            <connections>
+                <outlet property="CartCountLable" destination="gmc-zG-ieK" id="C2C-Ce-73D"/>
+                <outlet property="cartImage" destination="wtg-NP-zO5" id="gec-am-tRd"/>
+                <outlet property="cartPricseLable" destination="WCG-aw-mYW" id="Hee-Hh-2ZK"/>
+                <outlet property="cartTitleLable" destination="kLz-dD-DEJ" id="9Fb-A8-K1Y"/>
+            </connections>
+            <point key="canvasLocation" x="209.16030534351145" y="55.281690140845072"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="cart_list_noimg" width="320" height="320"/>
+        <image name="close" width="14" height="14"/>
+        <image name="minus" width="32" height="32"/>
+        <image name="plus" width="32" height="32"/>
+        <namedColor name="#0079FB">
+            <color red="0.0" green="0.47499999403953552" blue="0.98400002717971802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

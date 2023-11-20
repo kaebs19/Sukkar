@@ -48,13 +48,16 @@ class AddressesCell: UITableViewCell {
         dateilsLable.text = getcll.datetisAddress
         
         
-        if getcll.isDefault {
-            isDefaultImage.image = UIImage(named: "isDeufult")
-            isDefaultLable.textColor = UIColor(named: Colors.C0079FB.rawValue)
-        } else {
-            isDefaultImage.image = UIImage(named: "noDeuflut")
-            isDefaultLable.textColor = UIColor(named: Colors.CBFBFBF.rawValue)
-        }
+        isDefaultLable.textColor = UIColor(named: getcll.isDefault ? Colors.C0079FB.rawValue: Colors.CBFBFBF.rawValue )
+        isDefaultImage.image = UIImage(named: getcll.isDefault ? "isDeufult" : "noDeuflut")
+        
+//        if getcll.isDefault {
+//            isDefaultImage.image = UIImage(named: "isDeufult")
+//            isDefaultLable.textColor = UIColor(named: Colors.C0079FB.rawValue)
+//        } else {
+//            isDefaultImage.image = UIImage(named: "noDeuflut")
+//            isDefaultLable.textColor = UIColor(named: Colors.CBFBFBF.rawValue)
+//        }
         
     }
     
