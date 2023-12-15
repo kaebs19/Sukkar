@@ -2,21 +2,23 @@
 //  CategoriesCell.swift
 //  Sukkar
 //
-//  Created by mjeed on 10/12/2023.
+//  Created by mjeed on 15/12/2023.
 //
 
 import UIKit
 
+
+
 class CategoriesCell: UICollectionViewCell {
-    
+
     @IBOutlet weak var mainView: UIView!
-    @IBOutlet weak var productImageView: UIImageView!
-    
-    
+    @IBOutlet weak var titleLable: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
 
-        mainView.addRadius(radius: 16)
+        mainView.addRadius(radius: 20)
+        mainView.addBorder(borderColor: .C0079FB, whithSize: 1)
+
     }
 
 }
