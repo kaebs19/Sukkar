@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HomeProductsCVCell" customModule="Sukkar" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="109"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="109"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tk5-uD-Bhj">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="109"/>
+                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="tk5-uD-Bhj" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="F0b-TA-Qdt"/>
+                <constraint firstItem="tk5-uD-Bhj" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="gLO-az-mKP"/>
+                <constraint firstAttribute="trailing" secondItem="tk5-uD-Bhj" secondAttribute="trailing" id="q7n-GZ-ZDp"/>
+                <constraint firstAttribute="bottom" secondItem="tk5-uD-Bhj" secondAttribute="bottom" id="uW1-Id-kpd"/>
+            </constraints>
+            <size key="customSize" width="150" height="109"/>
+            <point key="canvasLocation" x="112.97709923664122" y="40.492957746478872"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

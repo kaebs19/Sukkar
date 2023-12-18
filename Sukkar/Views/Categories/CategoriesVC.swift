@@ -87,8 +87,8 @@ extension CategoriesVC: UICollectionViewDataSource {
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CategoriesCell", for: indexPath) as! CategoriesCell
             let date = categoriesList[indexPath.row]
             cell.titleLable.text = date.title
-            cell.titleLable.textColor = UIColor(named: date.isSelected ? "#C0079FB": "#E2E2E2") //
-            cell.mainView.addBorder(borderColor: date.isSelected ? .CE2E2E2 : .C0079FB, whithSize: 1 )
+            cell.titleLable.textColor = UIColor(named: date.isSelected ? Colors.C0079FB.rawValue: Colors.C2E2E2E.rawValue) //
+            cell.mainView.addBorder(borderColor: date.isSelected ? .C0079FB : .C2E2E2E, whithSize: 1 )
             
             return cell
             
