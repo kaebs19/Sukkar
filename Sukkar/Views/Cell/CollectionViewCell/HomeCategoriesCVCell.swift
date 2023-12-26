@@ -8,10 +8,15 @@
 import UIKit
 
 class HomeCategoriesCVCell: UICollectionViewCell {
+    
+    // MARK: - Outlets
 
+    @IBOutlet weak var mainView: UIView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        mainView.clipsToBounds = true
+        mainView.addRadius(radius: 12)
     }
 
 }

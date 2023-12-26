@@ -884,7 +884,7 @@
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="b4a-F0-dkn" secondAttribute="height" multiplier="320:107" id="aIG-Da-lXc"/>
                                                                         </constraints>
-                                                                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="PYb-k2-cCk">
+                                                                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="16" id="PYb-k2-cCk">
                                                                             <size key="itemSize" width="128" height="128"/>
                                                                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                                                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -892,10 +892,10 @@
                                                                         </collectionViewFlowLayout>
                                                                         <cells>
                                                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="9DN-xm-oF4">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                                                                <rect key="frame" x="0.0" y="1.3333333333333333" width="128" height="127.99999999999999"/>
                                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="r7q-46-vsD">
-                                                                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                                                                    <rect key="frame" x="0.0" y="0.0" width="128" height="127.99999999999999"/>
                                                                                     <autoresizingMask key="autoresizingMask"/>
                                                                                 </collectionViewCellContentView>
                                                                             </collectionViewCell>
@@ -918,12 +918,12 @@
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="WxG-Fc-MbO">
                                                                 <rect key="frame" x="20" y="0.0" width="410" height="292.66666666666669"/>
                                                                 <subviews>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EKb-fG-9fD">
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Featured" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EKb-fG-9fD">
                                                                         <rect key="frame" x="0.0" y="0.0" width="410" height="25"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="height" constant="25" id="u2C-KE-b1J"/>
                                                                         </constraints>
-                                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
@@ -1002,6 +1002,7 @@
                     <connections>
                         <outlet property="categoriesCV" destination="b4a-F0-dkn" id="7gn-qr-V7M"/>
                         <outlet property="productsCV" destination="riu-kM-hJs" id="QoB-zA-Z8c"/>
+                        <outlet property="sliderPageControl" destination="FjU-1B-nGf" id="Yld-kc-iFl"/>
                         <outlet property="slidersCV" destination="85r-4h-iHV" id="C8C-qd-wR4"/>
                     </connections>
                 </viewController>
@@ -1343,7 +1344,7 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemPurpleColor">
-            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
