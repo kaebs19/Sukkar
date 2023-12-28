@@ -17,6 +17,7 @@ enum Colors: String {
     case CBFBFBF = "#BFBFBF"
     case CE2E2E2 = "#E2E2E2"
     case C2E2E2E = "#2E2E2E"
+    case CFF0000 = "#FF0000"
     
 }
 

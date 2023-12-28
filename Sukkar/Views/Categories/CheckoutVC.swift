@@ -15,12 +15,10 @@ class CheckoutVC: UIViewController {
     
     // MARK: - Variables
     
-    var checkoutList = [Checkout(title: "Egyption Blood Glucose Monitor...", Quantity: 1, pricse: "500"),
-                        Checkout(title: "Egyption Blood Glucose Monitor...", Quantity: 2, pricse: "200"),
-                        Checkout(title: "Egyption Blood Glucose Monitor...", Quantity: 3, pricse: "100"),
-                        Checkout(title: "Egyption Blood Glucose Monitor...", Quantity: 4, pricse: "50")
-    
-    
+    var checkoutList = [Checkout(title: "Egyption Blood Glucose Monitor...", Quantity: 1, pricse: "500RS"),
+                        Checkout(title: "Egyption Blood Glucose Monitor...", Quantity: 2, pricse: "200RS"),
+                        Checkout(title: "Egyption Blood Glucose Monitor...", Quantity: 3, pricse: "100RS"),
+                        Checkout(title: "Egyption Blood Glucose Monitor...", Quantity: 4, pricse: "50RS")
     ]
 
     // MARK: - View Life Cycle

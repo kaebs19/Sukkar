@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CurrentLocationCVCell" customModule="Sukkar" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="159" height="174"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="159" height="174"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jb5-pv-nbz">
+                        <rect key="frame" x="0.0" y="0.0" width="159" height="174"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Chc-Yp-nzf">
+                                <rect key="frame" x="56.666666666666671" y="18.000000000000004" width="45.666666666666671" height="45.333333333333343"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Chc-Yp-nzf" secondAttribute="height" multiplier="1:1" id="TgB-Lx-idb"/>
+                                </constraints>
+                                <color key="tintColor" red="0.34509803921568627" green="0.34901960784313724" blue="0.35686274509803922" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="Icon map-location-arrow"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t4E-09-bqF">
+                                <rect key="frame" x="56.333333333333329" y="70.333333333333329" width="46.333333333333329" height="28.666666666666671"/>
+                                <string key="text">Current 
+location</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="t4E-09-bqF" firstAttribute="top" secondItem="Chc-Yp-nzf" secondAttribute="bottom" constant="7" id="22R-pA-BXa"/>
+                            <constraint firstItem="t4E-09-bqF" firstAttribute="centerX" secondItem="jb5-pv-nbz" secondAttribute="centerX" id="fwI-iT-U0O"/>
+                            <constraint firstItem="Chc-Yp-nzf" firstAttribute="top" secondItem="jb5-pv-nbz" secondAttribute="top" constant="18" id="laQ-oB-DdP"/>
+                            <constraint firstItem="Chc-Yp-nzf" firstAttribute="centerX" secondItem="jb5-pv-nbz" secondAttribute="centerX" id="p1X-ma-BPa"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="jb5-pv-nbz" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="1TP-rZ-1PC"/>
+                <constraint firstItem="jb5-pv-nbz" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="75r-W0-XlM"/>
+                <constraint firstAttribute="bottom" secondItem="jb5-pv-nbz" secondAttribute="bottom" id="Fl0-Nv-H5I"/>
+                <constraint firstAttribute="trailing" secondItem="jb5-pv-nbz" secondAttribute="trailing" id="NHn-dW-WVY"/>
+                <constraint firstItem="Chc-Yp-nzf" firstAttribute="width" secondItem="ZTg-uK-7eu" secondAttribute="width" multiplier="0.285714" id="oka-s0-0uD"/>
+            </constraints>
+            <size key="customSize" width="159" height="174"/>
+            <connections>
+                <outlet property="mainView" destination="jb5-pv-nbz" id="oiA-ig-Oy6"/>
+            </connections>
+            <point key="canvasLocation" x="109.16030534351144" y="63.380281690140848"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Icon map-location-arrow" width="14.666666984558105" height="18"/>
+    </resources>
+</document>

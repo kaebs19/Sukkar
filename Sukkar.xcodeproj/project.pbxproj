@@ -53,6 +53,13 @@
 		0FAAC1A32B2BD2A700C07BD6 /* ProudectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAAC1A12B2BD2A700C07BD6 /* ProudectCell.swift */; };
 		0FAAC1A42B2BD2A700C07BD6 /* ProudectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FAAC1A22B2BD2A700C07BD6 /* ProudectCell.xib */; };
 		0FAED3CE2B09848A002109F2 /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAED3CD2B09848A002109F2 /* CartVC.swift */; };
+		0FCCD0E02B3CE6B500B19562 /* CheckoutAddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCCD0DF2B3CE6B500B19562 /* CheckoutAddressVC.swift */; };
+		0FCCD0E42B3CEBCE00B19562 /* CurrentLocationCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCCD0E22B3CEBCE00B19562 /* CurrentLocationCVCell.swift */; };
+		0FCCD0E52B3CEBCE00B19562 /* CurrentLocationCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FCCD0E32B3CEBCE00B19562 /* CurrentLocationCVCell.xib */; };
+		0FCCD0E92B3CEC1C00B19562 /* NewAddressCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCCD0E72B3CEC1C00B19562 /* NewAddressCVCell.swift */; };
+		0FCCD0EA2B3CEC1C00B19562 /* NewAddressCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FCCD0E82B3CEC1C00B19562 /* NewAddressCVCell.xib */; };
+		0FCCD0ED2B3CEC5D00B19562 /* AddressCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCCD0EB2B3CEC5D00B19562 /* AddressCVCell.swift */; };
+		0FCCD0EE2B3CEC5D00B19562 /* AddressCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FCCD0EC2B3CEC5D00B19562 /* AddressCVCell.xib */; };
 		0FD30A802B2007F100A39E49 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD30A7F2B2007F100A39E49 /* UITableView+Extension.swift */; };
 /* End PBXBuildFile section */
 
@@ -105,6 +112,13 @@
 		0FAAC1A12B2BD2A700C07BD6 /* ProudectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProudectCell.swift; sourceTree = "<group>"; };
 		0FAAC1A22B2BD2A700C07BD6 /* ProudectCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProudectCell.xib; sourceTree = "<group>"; };
 		0FAED3CD2B09848A002109F2 /* CartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
+		0FCCD0DF2B3CE6B500B19562 /* CheckoutAddressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutAddressVC.swift; sourceTree = "<group>"; };
+		0FCCD0E22B3CEBCE00B19562 /* CurrentLocationCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocationCVCell.swift; sourceTree = "<group>"; };
+		0FCCD0E32B3CEBCE00B19562 /* CurrentLocationCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrentLocationCVCell.xib; sourceTree = "<group>"; };
+		0FCCD0E72B3CEC1C00B19562 /* NewAddressCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAddressCVCell.swift; sourceTree = "<group>"; };
+		0FCCD0E82B3CEC1C00B19562 /* NewAddressCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewAddressCVCell.xib; sourceTree = "<group>"; };
+		0FCCD0EB2B3CEC5D00B19562 /* AddressCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressCVCell.swift; sourceTree = "<group>"; };
+		0FCCD0EC2B3CEC5D00B19562 /* AddressCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddressCVCell.xib; sourceTree = "<group>"; };
 		0FD30A7F2B2007F100A39E49 /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -245,6 +259,7 @@
 				0F47808E2B03FF4F006B2FDF /* AddressesVC.swift */,
 				0F4780EB2B06F80F006B2FDF /* NewAddressVC.swift */,
 				0F57E15E2B2F5A5800757AC2 /* HomeVC.swift */,
+				0FCCD0DF2B3CE6B500B19562 /* CheckoutAddressVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -263,6 +278,9 @@
 		0FC473372B25353D005D1448 /* CollectionViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				0FCCD0EF2B3CEC6900B19562 /* AddressCVCell */,
+				0FCCD0E62B3CEBEB00B19562 /* NewAddressCVCell */,
+				0FCCD0E12B3CEB9D00B19562 /* CurrentLocationCVCell */,
 				0FAAC19D2B2BD29300C07BD6 /* CategoriesCell.swift */,
 				0FAAC19E2B2BD29300C07BD6 /* CategoriesCell.xib */,
 				0FAAC1A12B2BD2A700C07BD6 /* ProudectCell.swift */,
@@ -292,6 +310,33 @@
 				0F3E1AA82B1D5F750004FEAE /* CheckoutCell.xib */,
 			);
 			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		0FCCD0E12B3CEB9D00B19562 /* CurrentLocationCVCell */ = {
+			isa = PBXGroup;
+			children = (
+				0FCCD0E22B3CEBCE00B19562 /* CurrentLocationCVCell.swift */,
+				0FCCD0E32B3CEBCE00B19562 /* CurrentLocationCVCell.xib */,
+			);
+			path = CurrentLocationCVCell;
+			sourceTree = "<group>";
+		};
+		0FCCD0E62B3CEBEB00B19562 /* NewAddressCVCell */ = {
+			isa = PBXGroup;
+			children = (
+				0FCCD0E72B3CEC1C00B19562 /* NewAddressCVCell.swift */,
+				0FCCD0E82B3CEC1C00B19562 /* NewAddressCVCell.xib */,
+			);
+			path = NewAddressCVCell;
+			sourceTree = "<group>";
+		};
+		0FCCD0EF2B3CEC6900B19562 /* AddressCVCell */ = {
+			isa = PBXGroup;
+			children = (
+				0FCCD0EB2B3CEC5D00B19562 /* AddressCVCell.swift */,
+				0FCCD0EC2B3CEC5D00B19562 /* AddressCVCell.xib */,
+			);
+			path = AddressCVCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,7 +398,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F9252772AE9E53000851FA4 /* LaunchScreen.storyboard in Resources */,
+				0FCCD0EE2B3CEC5D00B19562 /* AddressCVCell.xib in Resources */,
+				0FCCD0E52B3CEBCE00B19562 /* CurrentLocationCVCell.xib in Resources */,
 				0F7CE0152AF7191B00595E48 /* OrdersCell.xib in Resources */,
+				0FCCD0EA2B3CEC1C00B19562 /* NewAddressCVCell.xib in Resources */,
 				0F07DEFC2B2FD8E100162889 /* HomeSliersCVCell.xib in Resources */,
 				0F682DE82B141860006F6272 /* ProuductCell.xib in Resources */,
 				0FAAC1A42B2BD2A700C07BD6 /* ProudectCell.xib in Resources */,
@@ -378,6 +426,7 @@
 				0F92526F2AE9E52F00851FA4 /* LoginVC.swift in Sources */,
 				0FAAC19F2B2BD29300C07BD6 /* CategoriesCell.swift in Sources */,
 				0F9252C72AEF1FBA00851FA4 /* Colors.swift in Sources */,
+				0FCCD0E92B3CEC1C00B19562 /* NewAddressCVCell.swift in Sources */,
 				0F7CE0142AF7191B00595E48 /* OrdersCell.swift in Sources */,
 				0F682DED2B143782006F6272 /* Products.swift in Sources */,
 				0F07DEFB2B2FD8E100162889 /* HomeSliersCVCell.swift in Sources */,
@@ -391,8 +440,11 @@
 				0F07DEFF2B2FD95300162889 /* HomeCategoriesCVCell.swift in Sources */,
 				0F7CE0182AF71B1200595E48 /* OrdersModels.swift in Sources */,
 				0FAAC1A32B2BD2A700C07BD6 /* ProudectCell.swift in Sources */,
+				0FCCD0ED2B3CEC5D00B19562 /* AddressCVCell.swift in Sources */,
 				0F47809A2B043129006B2FDF /* AddressModel.swift in Sources */,
 				0F3E1AA92B1D5F750004FEAE /* CheckoutCell.swift in Sources */,
+				0FCCD0E02B3CE6B500B19562 /* CheckoutAddressVC.swift in Sources */,
+				0FCCD0E42B3CEBCE00B19562 /* CurrentLocationCVCell.swift in Sources */,
 				0F57E15F2B2F5A5800757AC2 /* HomeVC.swift in Sources */,
 				0F8D03BA2B2A3D28006216FA /* CollectionViewCell+Enum.swift in Sources */,
 				0F4780942B03FFC8006B2FDF /* AddressesCell.swift in Sources */,
