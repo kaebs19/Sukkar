@@ -1,5 +1,5 @@
 //
-//  CheckoutAddressVC.swift
+//  CheckoutVC.swift
 //  Sukkar
 //
 //  Created by mjeed on 28/12/2023.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CheckoutAddressVC: UIViewController {
+class CheckoutVC: UIViewController {
     
     // MARK: - Outlets
     
@@ -38,7 +38,7 @@ class CheckoutAddressVC: UIViewController {
 // MARK: -  CollectionView Delegate & DataSource
 
 
-extension CheckoutAddressVC {
+extension CheckoutVC {
     private func initUI() {
         initCV(cv: addressCV)
         initTV(tv: productsTableView)
@@ -69,7 +69,7 @@ extension CheckoutAddressVC {
     
 }
 
-extension CheckoutAddressVC: UICollectionViewDelegate {
+extension CheckoutVC: UICollectionViewDelegate {
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return CheckoutCell.height
@@ -77,7 +77,7 @@ extension CheckoutAddressVC: UICollectionViewDelegate {
 
 }
 
-extension CheckoutAddressVC: UICollectionViewDataSource {
+extension CheckoutVC: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 10
     }
@@ -98,7 +98,7 @@ extension CheckoutAddressVC: UICollectionViewDataSource {
     }
     
 }
-extension CheckoutAddressVC: UICollectionViewDelegateFlowLayout {
+extension CheckoutVC: UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let collectionViewHieght = collectionView.bounds.height
@@ -119,7 +119,7 @@ extension CheckoutAddressVC: UICollectionViewDelegateFlowLayout {
 
 // MARK: -  TableView Delegate & DataSource
 
-extension CheckoutAddressVC: UITableViewDelegate {
+extension CheckoutVC: UITableViewDelegate {
         
     func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
         return CheckoutCell.height
@@ -128,7 +128,7 @@ extension CheckoutAddressVC: UITableViewDelegate {
 }
 
 
-extension CheckoutAddressVC: UITableViewDataSource {
+extension CheckoutVC: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return checkoutList.count

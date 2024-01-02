@@ -31,13 +31,10 @@ class LoginVC: UIViewController {
     // MARK: -  Configure Action - Func
 
     @IBAction func loginButtonClicked(_ sender: UIButton) {
-        
+     
         if validateLoginFields() {
-            print("loging Successfully")
-        } else {
-            loginButton.addBorder(borderColor: .CFF0000, whithSize: 1)
-            print("email is empty")
-
+            displayMessage(title: "Success", body: "login succcesfully", theme: .success)
+            
         }
         
     }
@@ -71,15 +68,19 @@ extension LoginVC {
     func validateLoginFields() -> Bool {
         if emailTextField.text == "" {
             print("email is empty")
+            displayMessage(title: "Warning", body: "email is empty", theme: .warning)
             return false
 
         }
         if passwordTextField.text == "" {
             print("password is empty")
+            displayMessage(title: "Warning", body: "password is empty", theme: .error)
             return false
 
         }
         return false
     }
+    
+ 
     
 }

@@ -17,7 +17,6 @@
 		0F33035D2B098E3B00487F6D /* CartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F33035B2B098E3B00487F6D /* CartCell.xib */; };
 		0F33035F2B0ACBAE00487F6D /* CartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F33035E2B0ACBAE00487F6D /* CartModel.swift */; };
 		0F3303612B0AE77B00487F6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F3303602B0AE77B00487F6D /* Assets.xcassets */; };
-		0F3E1AA62B1D596B0004FEAE /* CheckoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3E1AA52B1D596B0004FEAE /* CheckoutVC.swift */; };
 		0F3E1AA92B1D5F750004FEAE /* CheckoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3E1AA72B1D5F750004FEAE /* CheckoutCell.swift */; };
 		0F3E1AAA2B1D5F750004FEAE /* CheckoutCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F3E1AA82B1D5F750004FEAE /* CheckoutCell.xib */; };
 		0F3E1AAC2B1D6A6E0004FEAE /* Checkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3E1AAB2B1D6A6E0004FEAE /* Checkout.swift */; };
@@ -53,14 +52,16 @@
 		0FAAC1A32B2BD2A700C07BD6 /* ProudectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAAC1A12B2BD2A700C07BD6 /* ProudectCell.swift */; };
 		0FAAC1A42B2BD2A700C07BD6 /* ProudectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FAAC1A22B2BD2A700C07BD6 /* ProudectCell.xib */; };
 		0FAED3CE2B09848A002109F2 /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAED3CD2B09848A002109F2 /* CartVC.swift */; };
-		0FCCD0E02B3CE6B500B19562 /* CheckoutAddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCCD0DF2B3CE6B500B19562 /* CheckoutAddressVC.swift */; };
+		0FCCD0E02B3CE6B500B19562 /* CheckoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCCD0DF2B3CE6B500B19562 /* CheckoutVC.swift */; };
 		0FCCD0E42B3CEBCE00B19562 /* CurrentLocationCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCCD0E22B3CEBCE00B19562 /* CurrentLocationCVCell.swift */; };
 		0FCCD0E52B3CEBCE00B19562 /* CurrentLocationCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FCCD0E32B3CEBCE00B19562 /* CurrentLocationCVCell.xib */; };
 		0FCCD0E92B3CEC1C00B19562 /* NewAddressCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCCD0E72B3CEC1C00B19562 /* NewAddressCVCell.swift */; };
 		0FCCD0EA2B3CEC1C00B19562 /* NewAddressCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FCCD0E82B3CEC1C00B19562 /* NewAddressCVCell.xib */; };
 		0FCCD0ED2B3CEC5D00B19562 /* AddressCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCCD0EB2B3CEC5D00B19562 /* AddressCVCell.swift */; };
 		0FCCD0EE2B3CEC5D00B19562 /* AddressCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FCCD0EC2B3CEC5D00B19562 /* AddressCVCell.xib */; };
+		0FCCD11E2B3E488600B19562 /* UIViewControllers+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCCD11D2B3E488600B19562 /* UIViewControllers+Extension.swift */; };
 		0FD30A802B2007F100A39E49 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD30A7F2B2007F100A39E49 /* UITableView+Extension.swift */; };
+		BB2CA9B161371FCD5881546F /* Pods_Sukkar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4A6F022D50E6C4B7323017 /* Pods_Sukkar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,7 +75,6 @@
 		0F33035B2B098E3B00487F6D /* CartCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartCell.xib; sourceTree = "<group>"; };
 		0F33035E2B0ACBAE00487F6D /* CartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartModel.swift; sourceTree = "<group>"; };
 		0F3303602B0AE77B00487F6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0F3E1AA52B1D596B0004FEAE /* CheckoutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutVC.swift; sourceTree = "<group>"; };
 		0F3E1AA72B1D5F750004FEAE /* CheckoutCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutCell.swift; sourceTree = "<group>"; };
 		0F3E1AA82B1D5F750004FEAE /* CheckoutCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckoutCell.xib; sourceTree = "<group>"; };
 		0F3E1AAB2B1D6A6E0004FEAE /* Checkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkout.swift; sourceTree = "<group>"; };
@@ -112,14 +112,18 @@
 		0FAAC1A12B2BD2A700C07BD6 /* ProudectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProudectCell.swift; sourceTree = "<group>"; };
 		0FAAC1A22B2BD2A700C07BD6 /* ProudectCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProudectCell.xib; sourceTree = "<group>"; };
 		0FAED3CD2B09848A002109F2 /* CartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
-		0FCCD0DF2B3CE6B500B19562 /* CheckoutAddressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutAddressVC.swift; sourceTree = "<group>"; };
+		0FCCD0DF2B3CE6B500B19562 /* CheckoutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutVC.swift; sourceTree = "<group>"; };
 		0FCCD0E22B3CEBCE00B19562 /* CurrentLocationCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocationCVCell.swift; sourceTree = "<group>"; };
 		0FCCD0E32B3CEBCE00B19562 /* CurrentLocationCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrentLocationCVCell.xib; sourceTree = "<group>"; };
 		0FCCD0E72B3CEC1C00B19562 /* NewAddressCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAddressCVCell.swift; sourceTree = "<group>"; };
 		0FCCD0E82B3CEC1C00B19562 /* NewAddressCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewAddressCVCell.xib; sourceTree = "<group>"; };
 		0FCCD0EB2B3CEC5D00B19562 /* AddressCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressCVCell.swift; sourceTree = "<group>"; };
 		0FCCD0EC2B3CEC5D00B19562 /* AddressCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddressCVCell.xib; sourceTree = "<group>"; };
+		0FCCD11D2B3E488600B19562 /* UIViewControllers+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewControllers+Extension.swift"; sourceTree = "<group>"; };
 		0FD30A7F2B2007F100A39E49 /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		3D4A6F022D50E6C4B7323017 /* Pods_Sukkar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sukkar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81569770D8449896C875FE93 /* Pods-Sukkar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sukkar.debug.xcconfig"; path = "Target Support Files/Pods-Sukkar/Pods-Sukkar.debug.xcconfig"; sourceTree = "<group>"; };
+		B330C80DD31A1D66C6B5FED1 /* Pods-Sukkar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sukkar.release.xcconfig"; path = "Target Support Files/Pods-Sukkar/Pods-Sukkar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB2CA9B161371FCD5881546F /* Pods_Sukkar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +201,8 @@
 			children = (
 				0F9252692AE9E52F00851FA4 /* Sukkar */,
 				0F9252682AE9E52F00851FA4 /* Products */,
+				67241800E386BF86DEAF0078 /* Pods */,
+				1ACF05FBDB0C3943E7F76A8F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -246,6 +253,7 @@
 			children = (
 				0FD30A7F2B2007F100A39E49 /* UITableView+Extension.swift */,
 				0F9252C42AEDD09700851FA4 /* UIView+Extensions.swift */,
+				0FCCD11D2B3E488600B19562 /* UIViewControllers+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -259,7 +267,7 @@
 				0F47808E2B03FF4F006B2FDF /* AddressesVC.swift */,
 				0F4780EB2B06F80F006B2FDF /* NewAddressVC.swift */,
 				0F57E15E2B2F5A5800757AC2 /* HomeVC.swift */,
-				0FCCD0DF2B3CE6B500B19562 /* CheckoutAddressVC.swift */,
+				0FCCD0DF2B3CE6B500B19562 /* CheckoutVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -269,7 +277,6 @@
 			children = (
 				0FAED3CD2B09848A002109F2 /* CartVC.swift */,
 				0F682D662B12A232006F6272 /* ProductsVC.swift */,
-				0F3E1AA52B1D596B0004FEAE /* CheckoutVC.swift */,
 				0FAAC19B2B2BD01E00C07BD6 /* CategoriesVC.swift */,
 			);
 			path = Categories;
@@ -339,6 +346,23 @@
 			path = AddressCVCell;
 			sourceTree = "<group>";
 		};
+		1ACF05FBDB0C3943E7F76A8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D4A6F022D50E6C4B7323017 /* Pods_Sukkar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67241800E386BF86DEAF0078 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81569770D8449896C875FE93 /* Pods-Sukkar.debug.xcconfig */,
+				B330C80DD31A1D66C6B5FED1 /* Pods-Sukkar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -346,9 +370,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F92527B2AE9E53000851FA4 /* Build configuration list for PBXNativeTarget "Sukkar" */;
 			buildPhases = (
+				D085A5BB11EC91586A523EAD /* [CP] Check Pods Manifest.lock */,
 				0F9252632AE9E52F00851FA4 /* Sources */,
 				0F9252642AE9E52F00851FA4 /* Frameworks */,
 				0F9252652AE9E52F00851FA4 /* Resources */,
+				AE1E84C8CBD91BABE990DEB6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -418,6 +444,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AE1E84C8CBD91BABE990DEB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sukkar/Pods-Sukkar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sukkar/Pods-Sukkar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sukkar/Pods-Sukkar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D085A5BB11EC91586A523EAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sukkar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0F9252632AE9E52F00851FA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -425,6 +493,7 @@
 			files = (
 				0F92526F2AE9E52F00851FA4 /* LoginVC.swift in Sources */,
 				0FAAC19F2B2BD29300C07BD6 /* CategoriesCell.swift in Sources */,
+				0FCCD11E2B3E488600B19562 /* UIViewControllers+Extension.swift in Sources */,
 				0F9252C72AEF1FBA00851FA4 /* Colors.swift in Sources */,
 				0FCCD0E92B3CEC1C00B19562 /* NewAddressCVCell.swift in Sources */,
 				0F7CE0142AF7191B00595E48 /* OrdersCell.swift in Sources */,
@@ -443,7 +512,7 @@
 				0FCCD0ED2B3CEC5D00B19562 /* AddressCVCell.swift in Sources */,
 				0F47809A2B043129006B2FDF /* AddressModel.swift in Sources */,
 				0F3E1AA92B1D5F750004FEAE /* CheckoutCell.swift in Sources */,
-				0FCCD0E02B3CE6B500B19562 /* CheckoutAddressVC.swift in Sources */,
+				0FCCD0E02B3CE6B500B19562 /* CheckoutVC.swift in Sources */,
 				0FCCD0E42B3CEBCE00B19562 /* CurrentLocationCVCell.swift in Sources */,
 				0F57E15F2B2F5A5800757AC2 /* HomeVC.swift in Sources */,
 				0F8D03BA2B2A3D28006216FA /* CollectionViewCell+Enum.swift in Sources */,
@@ -452,7 +521,6 @@
 				0F9252F92AF0936800851FA4 /* RegisterVC.swift in Sources */,
 				0F4780EC2B06F810006B2FDF /* NewAddressVC.swift in Sources */,
 				0F3E1AAC2B1D6A6E0004FEAE /* Checkout.swift in Sources */,
-				0F3E1AA62B1D596B0004FEAE /* CheckoutVC.swift in Sources */,
 				0FD30A802B2007F100A39E49 /* UITableView+Extension.swift in Sources */,
 				0F33035F2B0ACBAE00487F6D /* CartModel.swift in Sources */,
 				0FAED3CE2B09848A002109F2 /* CartVC.swift in Sources */,
@@ -523,7 +591,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -586,7 +654,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -607,6 +675,7 @@
 		};
 		0F92527C2AE9E53000851FA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81569770D8449896C875FE93 /* Pods-Sukkar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -634,6 +703,7 @@
 		};
 		0F92527D2AE9E53000851FA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B330C80DD31A1D66C6B5FED1 /* Pods-Sukkar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

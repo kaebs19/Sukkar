@@ -1053,110 +1053,10 @@
             </objects>
             <point key="canvasLocation" x="4171" y="1524"/>
         </scene>
-        <!--CheckoutVC-->
-        <scene sceneID="jZw-ql-avN">
-            <objects>
-                <viewController id="sbW-IT-j7N" customClass="CheckoutVC" customModule="Sukkar" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Y9G-WA-GwC">
-                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EMu-0D-GVq">
-                                <rect key="frame" x="0.0" y="59" width="430" height="839"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LGd-iK-t0a">
-                                        <rect key="frame" x="0.0" y="0.0" width="430" height="952"/>
-                                        <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="51" translatesAutoresizingMaskIntoConstraints="NO" id="abn-lT-toJ">
-                                                <rect key="frame" x="0.0" y="0.0" width="430" height="952"/>
-                                                <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bhk-dB-rq9">
-                                                        <rect key="frame" x="0.0" y="0.0" width="430" height="200"/>
-                                                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="200" id="vy9-H4-xRV"/>
-                                                        </constraints>
-                                                    </view>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MY0-43-yWE">
-                                                        <rect key="frame" x="0.0" y="251" width="430" height="50"/>
-                                                        <subviews>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Pwt-vB-Cmh">
-                                                                <rect key="frame" x="16" y="0.0" width="398" height="50"/>
-                                                                <subviews>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Products" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lEp-he-9Kn">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="398" height="42"/>
-                                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                        <nil key="textColor"/>
-                                                                        <nil key="highlightedColor"/>
-                                                                    </label>
-                                                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Rai-je-chg">
-                                                                        <rect key="frame" x="0.0" y="50" width="398" height="0.0"/>
-                                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                                        <constraints>
-                                                                            <constraint firstAttribute="height" id="Xlc-uU-ufY"/>
-                                                                        </constraints>
-                                                                    </tableView>
-                                                                </subviews>
-                                                            </stackView>
-                                                        </subviews>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <constraints>
-                                                            <constraint firstItem="Pwt-vB-Cmh" firstAttribute="leading" secondItem="MY0-43-yWE" secondAttribute="leading" constant="16" id="7Yl-oY-Fnb"/>
-                                                            <constraint firstItem="Pwt-vB-Cmh" firstAttribute="top" secondItem="MY0-43-yWE" secondAttribute="top" id="PZt-ex-oby"/>
-                                                            <constraint firstAttribute="trailing" secondItem="Pwt-vB-Cmh" secondAttribute="trailing" constant="16" id="kTj-f4-CkH"/>
-                                                            <constraint firstAttribute="bottom" secondItem="Pwt-vB-Cmh" secondAttribute="bottom" id="xY7-I8-Q7f"/>
-                                                        </constraints>
-                                                    </view>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T8g-hS-7Ul">
-                                                        <rect key="frame" x="0.0" y="352" width="430" height="600"/>
-                                                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="600" id="YCD-QL-Hdg"/>
-                                                        </constraints>
-                                                    </view>
-                                                </subviews>
-                                            </stackView>
-                                        </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="abn-lT-toJ" secondAttribute="bottom" id="AuD-Ah-9CP"/>
-                                            <constraint firstAttribute="trailing" secondItem="abn-lT-toJ" secondAttribute="trailing" id="Krc-RH-9SL"/>
-                                            <constraint firstItem="abn-lT-toJ" firstAttribute="top" secondItem="LGd-iK-t0a" secondAttribute="top" id="XDA-R7-uSh"/>
-                                            <constraint firstItem="abn-lT-toJ" firstAttribute="leading" secondItem="LGd-iK-t0a" secondAttribute="leading" id="nHb-7h-sWc"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="LGd-iK-t0a" firstAttribute="leading" secondItem="EMu-0D-GVq" secondAttribute="leading" id="bjy-4O-T1d"/>
-                                    <constraint firstAttribute="trailing" secondItem="LGd-iK-t0a" secondAttribute="trailing" id="eCI-3L-Ip0"/>
-                                    <constraint firstAttribute="bottom" secondItem="LGd-iK-t0a" secondAttribute="bottom" id="gF3-gz-TEu"/>
-                                    <constraint firstItem="LGd-iK-t0a" firstAttribute="top" secondItem="EMu-0D-GVq" secondAttribute="top" id="rMR-Jf-kRU"/>
-                                </constraints>
-                            </scrollView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="um7-7u-WH2"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="um7-7u-WH2" firstAttribute="bottom" secondItem="EMu-0D-GVq" secondAttribute="bottom" id="OjT-vD-4lr"/>
-                            <constraint firstItem="EMu-0D-GVq" firstAttribute="leading" secondItem="um7-7u-WH2" secondAttribute="leading" id="gV1-8U-iVe"/>
-                            <constraint firstItem="LGd-iK-t0a" firstAttribute="width" secondItem="um7-7u-WH2" secondAttribute="width" id="k7T-1p-eha"/>
-                            <constraint firstItem="um7-7u-WH2" firstAttribute="trailing" secondItem="EMu-0D-GVq" secondAttribute="trailing" id="kBG-hf-V9c"/>
-                            <constraint firstItem="EMu-0D-GVq" firstAttribute="top" secondItem="um7-7u-WH2" secondAttribute="top" id="tua-ND-LIp"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="productsTVHeightConstraint" destination="Xlc-uU-ufY" id="FGN-aw-a4m"/>
-                        <outlet property="productsTableView" destination="Rai-je-chg" id="3tS-qf-UfG"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5kZ-tL-p9p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4958" y="1524"/>
-        </scene>
         <!--Checkout-->
         <scene sceneID="OHr-0g-Vls">
             <objects>
-                <viewController id="6WF-kV-B3a" customClass="CheckoutAddressVC" customModule="Sukkar" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="6WF-kV-B3a" customClass="CheckoutVC" customModule="Sukkar" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Atf-Qe-hpi">
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1197,7 +1097,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="YVQ-ZF-DEc">
-                                        <rect key="frame" x="0.0" y="22.333333333333343" width="398" height="492.33333333333314"/>
+                                        <rect key="frame" x="0.0" y="22.333333333333343" width="398" height="492.33333333333326"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </tableView>
                                 </subviews>
@@ -1529,9 +1429,6 @@
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemPurpleColor">
-            <color red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
